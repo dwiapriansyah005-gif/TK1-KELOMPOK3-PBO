@@ -429,7 +429,7 @@ public class CopyAja extends javax.swing.JFrame {
         jButton2.setFont(new java.awt.Font("Trebuchet MS", 3, 25)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/Mask group.png"))); // NOI18N
-        jButton2.setText("Kebali Ke Dashboard");
+        jButton2.setText("Return To Dashboard");
         jButton2.setIconTextGap(10);
         jButton2.setMaximumSize(new java.awt.Dimension(387, 55));
         jButton2.setMinimumSize(new java.awt.Dimension(387, 55));
@@ -479,12 +479,12 @@ public class CopyAja extends javax.swing.JFrame {
         jPanel26Layout.setHorizontalGroup(
             jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel26Layout.createSequentialGroup()
-                .addGap(0, 280, Short.MAX_VALUE)
+                .addGap(0, 251, Short.MAX_VALUE)
                 .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jPanel27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(0, 280, Short.MAX_VALUE))
+                .addGap(0, 309, Short.MAX_VALUE))
         );
         jPanel26Layout.setVerticalGroup(
             jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

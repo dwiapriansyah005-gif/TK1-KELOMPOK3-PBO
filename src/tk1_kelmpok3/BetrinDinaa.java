@@ -77,7 +77,6 @@ public class BetrinDinaa extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(204, 204, 204));
-        setPreferredSize(new java.awt.Dimension(1680, 983));
         getContentPane().setLayout(new java.awt.CardLayout());
 
         jPanel23.setBackground(new java.awt.Color(204, 204, 204));
@@ -430,7 +429,7 @@ public class BetrinDinaa extends javax.swing.JFrame {
         jButton2.setFont(new java.awt.Font("Trebuchet MS", 3, 25)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/Mask group.png"))); // NOI18N
-        jButton2.setText("Kebali Ke Dashboard");
+        jButton2.setText("Return To Dashboard");
         jButton2.setIconTextGap(10);
         jButton2.setMaximumSize(new java.awt.Dimension(387, 55));
         jButton2.setMinimumSize(new java.awt.Dimension(387, 55));
