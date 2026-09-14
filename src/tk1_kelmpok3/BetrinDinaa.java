@@ -8,14 +8,14 @@ package tk1_kelmpok3;
  *
  * @author HP 14s Ryzen
  */
-public class BetrinDina extends javax.swing.JFrame {
+public class BetrinDinaa extends javax.swing.JFrame {
     
-    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(BetrinDina.class.getName());
+    private static final java.util.logging.Logger logger = java.util.logging.Logger.getLogger(BetrinDinaa.class.getName());
 
     /**
-     * Creates new form BetrinDina
+     * Creates new form BetrinDinaa
      */
-    public BetrinDina() {
+    public BetrinDinaa() {
         initComponents();
     }
 
@@ -28,6 +28,8 @@ public class BetrinDina extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel23 = new javax.swing.JPanel();
+        jPanel26 = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -68,8 +70,22 @@ public class BetrinDina extends javax.swing.JFrame {
         jLabel12 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
+        jPanel27 = new javax.swing.JPanel();
+        jButton2 = new javax.swing.JButton();
+        jPanel28 = new javax.swing.JPanel();
+        jLabel5 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setBackground(new java.awt.Color(204, 204, 204));
+        setPreferredSize(new java.awt.Dimension(1680, 983));
+        getContentPane().setLayout(new java.awt.CardLayout());
+
+        jPanel23.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel23.setPreferredSize(new java.awt.Dimension(1680, 983));
+        jPanel23.setLayout(new java.awt.BorderLayout());
+
+        jPanel26.setBackground(new java.awt.Color(213, 213, 213));
+        jPanel26.setPreferredSize(new java.awt.Dimension(1066, 612));
 
         jPanel1.setBackground(new java.awt.Color(124, 168, 220));
         jPanel1.setMinimumSize(new java.awt.Dimension(1066, 127));
@@ -84,16 +100,12 @@ public class BetrinDina extends javax.swing.JFrame {
         jLabel2.setText("    IDENTIFICATION CARD");
         jPanel1.add(jLabel2, java.awt.BorderLayout.CENTER);
 
-        getContentPane().add(jPanel1, java.awt.BorderLayout.PAGE_START);
-
         jPanel2.setLayout(new java.awt.BorderLayout());
 
-        jPanel3.setMinimumSize(new java.awt.Dimension(361, 485));
         jPanel3.setPreferredSize(new java.awt.Dimension(361, 485));
         jPanel3.setLayout(new java.awt.BorderLayout());
 
         jPanel5.setMinimumSize(new java.awt.Dimension(361, 49));
-        jPanel5.setPreferredSize(new java.awt.Dimension(361, 49));
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -109,7 +121,6 @@ public class BetrinDina extends javax.swing.JFrame {
         jPanel3.add(jPanel5, java.awt.BorderLayout.PAGE_START);
 
         jPanel6.setMinimumSize(new java.awt.Dimension(361, 84));
-        jPanel6.setPreferredSize(new java.awt.Dimension(361, 84));
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -128,7 +139,6 @@ public class BetrinDina extends javax.swing.JFrame {
         jPanel7.setLayout(new java.awt.BorderLayout());
 
         jPanel8.setMinimumSize(new java.awt.Dimension(58, 352));
-        jPanel8.setPreferredSize(new java.awt.Dimension(58, 352));
 
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
@@ -144,7 +154,6 @@ public class BetrinDina extends javax.swing.JFrame {
         jPanel7.add(jPanel8, java.awt.BorderLayout.LINE_START);
 
         jPanel9.setMinimumSize(new java.awt.Dimension(39, 352));
-        jPanel9.setPreferredSize(new java.awt.Dimension(39, 352));
 
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
@@ -178,13 +187,12 @@ public class BetrinDina extends javax.swing.JFrame {
         jPanel11.setLayout(new java.awt.BorderLayout());
 
         jPanel14.setMinimumSize(new java.awt.Dimension(705, 54));
-        jPanel14.setPreferredSize(new java.awt.Dimension(705, 54));
 
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
         jPanel14.setLayout(jPanel14Layout);
         jPanel14Layout.setHorizontalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 705, Short.MAX_VALUE)
+            .addGap(0, 759, Short.MAX_VALUE)
         );
         jPanel14Layout.setVerticalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -229,7 +237,6 @@ public class BetrinDina extends javax.swing.JFrame {
         jPanel18.setLayout(new java.awt.BorderLayout());
 
         jPanel19.setMinimumSize(new java.awt.Dimension(62, 121));
-        jPanel19.setPreferredSize(new java.awt.Dimension(62, 121));
 
         javax.swing.GroupLayout jPanel19Layout = new javax.swing.GroupLayout(jPanel19);
         jPanel19.setLayout(jPanel19Layout);
@@ -263,7 +270,7 @@ public class BetrinDina extends javax.swing.JFrame {
         jPanel21.setLayout(jPanel21Layout);
         jPanel21Layout.setHorizontalGroup(
             jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, 429, Short.MAX_VALUE)
+            .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, 483, Short.MAX_VALUE)
             .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
         jPanel21Layout.setVerticalGroup(
@@ -286,13 +293,12 @@ public class BetrinDina extends javax.swing.JFrame {
         jPanel4.add(jPanel11, java.awt.BorderLayout.PAGE_START);
 
         jPanel12.setMinimumSize(new java.awt.Dimension(705, 82));
-        jPanel12.setPreferredSize(new java.awt.Dimension(705, 82));
 
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
         jPanel12.setLayout(jPanel12Layout);
         jPanel12Layout.setHorizontalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 705, Short.MAX_VALUE)
+            .addGap(0, 759, Short.MAX_VALUE)
         );
         jPanel12Layout.setVerticalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -388,8 +394,8 @@ public class BetrinDina extends javax.swing.JFrame {
                             .addComponent(jLabel10, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 148, Short.MAX_VALUE)
                             .addComponent(jLabel8, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addGap(27, 27, 27)
-                        .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, 504, Short.MAX_VALUE)))
-                .addContainerGap(20, Short.MAX_VALUE))
+                        .addComponent(jLabel13, javax.swing.GroupLayout.DEFAULT_SIZE, 531, Short.MAX_VALUE)))
+                .addContainerGap(47, Short.MAX_VALUE))
         );
         jPanel22Layout.setVerticalGroup(
             jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -418,10 +424,91 @@ public class BetrinDina extends javax.swing.JFrame {
 
         jPanel2.add(jPanel4, java.awt.BorderLayout.CENTER);
 
-        getContentPane().add(jPanel2, java.awt.BorderLayout.CENTER);
+        jPanel27.setBackground(new java.awt.Color(213, 213, 213));
+
+        jButton2.setBackground(new java.awt.Color(0, 132, 255));
+        jButton2.setFont(new java.awt.Font("Trebuchet MS", 3, 25)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/Mask group.png"))); // NOI18N
+        jButton2.setText("Kebali Ke Dashboard");
+        jButton2.setIconTextGap(10);
+        jButton2.setMaximumSize(new java.awt.Dimension(387, 55));
+        jButton2.setMinimumSize(new java.awt.Dimension(387, 55));
+        jButton2.addActionListener(this::jButton2ActionPerformed);
+
+        jPanel28.setBackground(new java.awt.Color(0, 132, 255));
+
+        jLabel5.setFont(new java.awt.Font("Trebuchet MS", 3, 25)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/Mask group (1).png"))); // NOI18N
+        jLabel5.setText("Betrin Frame");
+        jLabel5.setIconTextGap(10);
+
+        javax.swing.GroupLayout jPanel28Layout = new javax.swing.GroupLayout(jPanel28);
+        jPanel28.setLayout(jPanel28Layout);
+        jPanel28Layout.setHorizontalGroup(
+            jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 298, Short.MAX_VALUE)
+        );
+        jPanel28Layout.setVerticalGroup(
+            jPanel28Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        javax.swing.GroupLayout jPanel27Layout = new javax.swing.GroupLayout(jPanel27);
+        jPanel27.setLayout(jPanel27Layout);
+        jPanel27Layout.setHorizontalGroup(
+            jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel27Layout.createSequentialGroup()
+                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 387, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+        );
+        jPanel27Layout.setVerticalGroup(
+            jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel27Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel27Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jButton2, javax.swing.GroupLayout.DEFAULT_SIZE, 55, Short.MAX_VALUE)
+                    .addComponent(jPanel28, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(33, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout jPanel26Layout = new javax.swing.GroupLayout(jPanel26);
+        jPanel26.setLayout(jPanel26Layout);
+        jPanel26Layout.setHorizontalGroup(
+            jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel26Layout.createSequentialGroup()
+                .addGap(0, 280, Short.MAX_VALUE)
+                .addGroup(jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jPanel27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 280, Short.MAX_VALUE))
+        );
+        jPanel26Layout.setVerticalGroup(
+            jPanel26Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel26Layout.createSequentialGroup()
+                .addGap(0, 132, Short.MAX_VALUE)
+                .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0)
+                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 492, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 132, Short.MAX_VALUE))
+        );
+
+        jPanel23.add(jPanel26, java.awt.BorderLayout.CENTER);
+
+        getContentPane().add(jPanel23, "card2");
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -445,10 +532,11 @@ public class BetrinDina extends javax.swing.JFrame {
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(() -> new BetrinDina().setVisible(true));
+        java.awt.EventQueue.invokeLater(() -> new BetrinDinaa().setVisible(true));
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -461,6 +549,7 @@ public class BetrinDina extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
@@ -480,8 +569,12 @@ public class BetrinDina extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel20;
     private javax.swing.JPanel jPanel21;
     private javax.swing.JPanel jPanel22;
+    private javax.swing.JPanel jPanel23;
     private javax.swing.JPanel jPanel24;
     private javax.swing.JPanel jPanel25;
+    private javax.swing.JPanel jPanel26;
+    private javax.swing.JPanel jPanel27;
+    private javax.swing.JPanel jPanel28;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
