@@ -441,7 +441,7 @@ public class Dwi extends javax.swing.JFrame {
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/Mask group (1).png"))); // NOI18N
-        jLabel5.setText("Betrin Frame");
+        jLabel5.setText("Dwi Frame");
         jLabel5.setIconTextGap(10);
 
         javax.swing.GroupLayout jPanel28Layout = new javax.swing.GroupLayout(jPanel28);
