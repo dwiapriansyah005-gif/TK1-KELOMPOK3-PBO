@@ -342,7 +342,6 @@ public class Farid extends javax.swing.JFrame {
 
         jLabel15.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jLabel15.setForeground(new java.awt.Color(124, 168, 220));
-        jLabel15.setText("202557201007");
         jLabel15.setBorder(javax.swing.BorderFactory.createEmptyBorder(0, 10, 0, 0));
 
         javax.swing.GroupLayout jPanel25Layout = new javax.swing.GroupLayout(jPanel25);
