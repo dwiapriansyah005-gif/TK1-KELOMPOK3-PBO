@@ -259,7 +259,7 @@ public class Sifaul extends javax.swing.JFrame {
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 55)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(124, 168, 220));
-        jLabel6.setText("SYIFAUL A");
+        jLabel6.setText("SYIFAUL AMAL");
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 57)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(124, 168, 220));
