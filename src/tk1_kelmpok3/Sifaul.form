@@ -524,7 +524,7 @@
                                             <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                                               <Color blue="dc" green="a8" red="7c" type="rgb"/>
                                             </Property>
-                                            <Property name="text" type="java.lang.String" value="SYIFAUL A"/>
+                                            <Property name="text" type="java.lang.String" value="SYIFAUL AMAL"/>
                                           </Properties>
                                         </Component>
                                         <Component class="javax.swing.JLabel" name="jLabel7">
