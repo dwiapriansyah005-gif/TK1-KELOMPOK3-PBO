@@ -57,39 +57,38 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel20 = new javax.swing.JPanel();
         jLabel8 = new javax.swing.JLabel();
         jPanel21 = new javax.swing.JPanel();
-        jPanel22 = new javax.swing.JPanel();
+        pnlKetua = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
         jPanel23 = new javax.swing.JPanel();
         jPanel34 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
-        jPanel24 = new javax.swing.JPanel();
+        pnlAnggota1 = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
         jPanel25 = new javax.swing.JPanel();
         jPanel36 = new javax.swing.JPanel();
         jLabel12 = new javax.swing.JLabel();
-        jPanel26 = new javax.swing.JPanel();
+        pnlAnggota2 = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
         jPanel27 = new javax.swing.JPanel();
         jPanel35 = new javax.swing.JPanel();
         jLabel14 = new javax.swing.JLabel();
-        jPanel28 = new javax.swing.JPanel();
+        pnlAnggota3 = new javax.swing.JPanel();
         jLabel21 = new javax.swing.JLabel();
         jPanel29 = new javax.swing.JPanel();
         jPanel37 = new javax.swing.JPanel();
         jLabel15 = new javax.swing.JLabel();
-        jPanel30 = new javax.swing.JPanel();
+        pnlAnggota4 = new javax.swing.JPanel();
         jLabel23 = new javax.swing.JLabel();
         jPanel31 = new javax.swing.JPanel();
         jPanel38 = new javax.swing.JPanel();
         jLabel16 = new javax.swing.JLabel();
-        jPanel32 = new javax.swing.JPanel();
+        pnlAnggota5 = new javax.swing.JPanel();
         jLabel25 = new javax.swing.JLabel();
         jPanel33 = new javax.swing.JPanel();
         jPanel39 = new javax.swing.JPanel();
         jLabel17 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(638, 156));
         getContentPane().setLayout(new java.awt.CardLayout());
 
         jPanel1.setMinimumSize(new java.awt.Dimension(1680, 983));
@@ -307,18 +306,18 @@ public class Dashboard extends javax.swing.JFrame {
 
         jPanel21.setLayout(new java.awt.GridLayout(3, 2, 30, 20));
 
-        jPanel22.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel22.setMinimumSize(new java.awt.Dimension(536, 156));
-        jPanel22.setPreferredSize(new java.awt.Dimension(536, 156));
-        jPanel22.addMouseListener(new java.awt.event.MouseAdapter() {
+        pnlKetua.setBackground(new java.awt.Color(255, 255, 255));
+        pnlKetua.setMinimumSize(new java.awt.Dimension(536, 156));
+        pnlKetua.setPreferredSize(new java.awt.Dimension(536, 156));
+        pnlKetua.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jPanel22MouseClicked(evt);
+                pnlKetuaMouseClicked(evt);
             }
         });
-        jPanel22.setLayout(new java.awt.BorderLayout());
+        pnlKetua.setLayout(new java.awt.BorderLayout());
 
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/PANAH.png"))); // NOI18N
-        jPanel22.add(jLabel9, java.awt.BorderLayout.LINE_END);
+        pnlKetua.add(jLabel9, java.awt.BorderLayout.LINE_END);
 
         jPanel23.setBackground(new java.awt.Color(255, 255, 255));
         jPanel23.setLayout(new java.awt.BorderLayout());
@@ -342,22 +341,22 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/KETUA_B.png"))); // NOI18N
         jPanel23.add(jLabel10, java.awt.BorderLayout.CENTER);
 
-        jPanel22.add(jPanel23, java.awt.BorderLayout.CENTER);
+        pnlKetua.add(jPanel23, java.awt.BorderLayout.CENTER);
 
-        jPanel21.add(jPanel22);
+        jPanel21.add(pnlKetua);
 
-        jPanel24.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel24.setMinimumSize(new java.awt.Dimension(536, 156));
-        jPanel24.setPreferredSize(new java.awt.Dimension(536, 156));
-        jPanel24.addMouseListener(new java.awt.event.MouseAdapter() {
+        pnlAnggota1.setBackground(new java.awt.Color(255, 255, 255));
+        pnlAnggota1.setMinimumSize(new java.awt.Dimension(536, 156));
+        pnlAnggota1.setPreferredSize(new java.awt.Dimension(536, 156));
+        pnlAnggota1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jPanel24MouseClicked(evt);
+                pnlAnggota1MouseClicked(evt);
             }
         });
-        jPanel24.setLayout(new java.awt.BorderLayout());
+        pnlAnggota1.setLayout(new java.awt.BorderLayout());
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/PANAH.png"))); // NOI18N
-        jPanel24.add(jLabel11, java.awt.BorderLayout.LINE_END);
+        pnlAnggota1.add(jLabel11, java.awt.BorderLayout.LINE_END);
 
         jPanel25.setBackground(new java.awt.Color(255, 255, 255));
         jPanel25.setLayout(new java.awt.BorderLayout());
@@ -382,22 +381,22 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/ANGGOTA1_B.png"))); // NOI18N
         jPanel25.add(jLabel12, java.awt.BorderLayout.CENTER);
 
-        jPanel24.add(jPanel25, java.awt.BorderLayout.CENTER);
+        pnlAnggota1.add(jPanel25, java.awt.BorderLayout.CENTER);
 
-        jPanel21.add(jPanel24);
+        jPanel21.add(pnlAnggota1);
 
-        jPanel26.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel26.setMinimumSize(new java.awt.Dimension(536, 156));
-        jPanel26.setPreferredSize(new java.awt.Dimension(536, 156));
-        jPanel26.addMouseListener(new java.awt.event.MouseAdapter() {
+        pnlAnggota2.setBackground(new java.awt.Color(255, 255, 255));
+        pnlAnggota2.setMinimumSize(new java.awt.Dimension(536, 156));
+        pnlAnggota2.setPreferredSize(new java.awt.Dimension(536, 156));
+        pnlAnggota2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jPanel26MouseClicked(evt);
+                pnlAnggota2MouseClicked(evt);
             }
         });
-        jPanel26.setLayout(new java.awt.BorderLayout());
+        pnlAnggota2.setLayout(new java.awt.BorderLayout());
 
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/PANAH.png"))); // NOI18N
-        jPanel26.add(jLabel13, java.awt.BorderLayout.LINE_END);
+        pnlAnggota2.add(jLabel13, java.awt.BorderLayout.LINE_END);
 
         jPanel27.setBackground(new java.awt.Color(255, 255, 255));
         jPanel27.setLayout(new java.awt.BorderLayout());
@@ -422,22 +421,22 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/ANGGOTA2_B.png"))); // NOI18N
         jPanel27.add(jLabel14, java.awt.BorderLayout.CENTER);
 
-        jPanel26.add(jPanel27, java.awt.BorderLayout.CENTER);
+        pnlAnggota2.add(jPanel27, java.awt.BorderLayout.CENTER);
 
-        jPanel21.add(jPanel26);
+        jPanel21.add(pnlAnggota2);
 
-        jPanel28.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel28.setMinimumSize(new java.awt.Dimension(536, 156));
-        jPanel28.setPreferredSize(new java.awt.Dimension(536, 156));
-        jPanel28.addMouseListener(new java.awt.event.MouseAdapter() {
+        pnlAnggota3.setBackground(new java.awt.Color(255, 255, 255));
+        pnlAnggota3.setMinimumSize(new java.awt.Dimension(536, 156));
+        pnlAnggota3.setPreferredSize(new java.awt.Dimension(536, 156));
+        pnlAnggota3.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jPanel28MouseClicked(evt);
+                pnlAnggota3MouseClicked(evt);
             }
         });
-        jPanel28.setLayout(new java.awt.BorderLayout());
+        pnlAnggota3.setLayout(new java.awt.BorderLayout());
 
         jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/PANAH.png"))); // NOI18N
-        jPanel28.add(jLabel21, java.awt.BorderLayout.LINE_END);
+        pnlAnggota3.add(jLabel21, java.awt.BorderLayout.LINE_END);
 
         jPanel29.setBackground(new java.awt.Color(255, 255, 255));
         jPanel29.setLayout(new java.awt.BorderLayout());
@@ -462,22 +461,22 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/ANGGOTA3_B.png"))); // NOI18N
         jPanel29.add(jLabel15, java.awt.BorderLayout.CENTER);
 
-        jPanel28.add(jPanel29, java.awt.BorderLayout.CENTER);
+        pnlAnggota3.add(jPanel29, java.awt.BorderLayout.CENTER);
 
-        jPanel21.add(jPanel28);
+        jPanel21.add(pnlAnggota3);
 
-        jPanel30.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel30.setMinimumSize(new java.awt.Dimension(536, 156));
-        jPanel30.setPreferredSize(new java.awt.Dimension(536, 156));
-        jPanel30.addMouseListener(new java.awt.event.MouseAdapter() {
+        pnlAnggota4.setBackground(new java.awt.Color(255, 255, 255));
+        pnlAnggota4.setMinimumSize(new java.awt.Dimension(536, 156));
+        pnlAnggota4.setPreferredSize(new java.awt.Dimension(536, 156));
+        pnlAnggota4.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jPanel30MouseClicked(evt);
+                pnlAnggota4MouseClicked(evt);
             }
         });
-        jPanel30.setLayout(new java.awt.BorderLayout());
+        pnlAnggota4.setLayout(new java.awt.BorderLayout());
 
         jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/PANAH.png"))); // NOI18N
-        jPanel30.add(jLabel23, java.awt.BorderLayout.LINE_END);
+        pnlAnggota4.add(jLabel23, java.awt.BorderLayout.LINE_END);
 
         jPanel31.setBackground(new java.awt.Color(255, 255, 255));
         jPanel31.setLayout(new java.awt.BorderLayout());
@@ -502,22 +501,22 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/ANGGOTA4_B.png"))); // NOI18N
         jPanel31.add(jLabel16, java.awt.BorderLayout.CENTER);
 
-        jPanel30.add(jPanel31, java.awt.BorderLayout.CENTER);
+        pnlAnggota4.add(jPanel31, java.awt.BorderLayout.CENTER);
 
-        jPanel21.add(jPanel30);
+        jPanel21.add(pnlAnggota4);
 
-        jPanel32.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel32.setMinimumSize(new java.awt.Dimension(536, 156));
-        jPanel32.setPreferredSize(new java.awt.Dimension(536, 156));
-        jPanel32.addMouseListener(new java.awt.event.MouseAdapter() {
+        pnlAnggota5.setBackground(new java.awt.Color(255, 255, 255));
+        pnlAnggota5.setMinimumSize(new java.awt.Dimension(536, 156));
+        pnlAnggota5.setPreferredSize(new java.awt.Dimension(536, 156));
+        pnlAnggota5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jPanel32MouseClicked(evt);
+                pnlAnggota5MouseClicked(evt);
             }
         });
-        jPanel32.setLayout(new java.awt.BorderLayout());
+        pnlAnggota5.setLayout(new java.awt.BorderLayout());
 
         jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/PANAH.png"))); // NOI18N
-        jPanel32.add(jLabel25, java.awt.BorderLayout.LINE_END);
+        pnlAnggota5.add(jLabel25, java.awt.BorderLayout.LINE_END);
 
         jPanel33.setBackground(new java.awt.Color(255, 255, 255));
         jPanel33.setLayout(new java.awt.BorderLayout());
@@ -542,9 +541,9 @@ public class Dashboard extends javax.swing.JFrame {
         jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/ANGGOTA5_B.png"))); // NOI18N
         jPanel33.add(jLabel17, java.awt.BorderLayout.CENTER);
 
-        jPanel32.add(jPanel33, java.awt.BorderLayout.CENTER);
+        pnlAnggota5.add(jPanel33, java.awt.BorderLayout.CENTER);
 
-        jPanel21.add(jPanel32);
+        jPanel21.add(pnlAnggota5);
 
         jPanel9.add(jPanel21, java.awt.BorderLayout.CENTER);
 
@@ -559,43 +558,44 @@ public class Dashboard extends javax.swing.JFrame {
         getContentPane().add(jPanel1, "card2");
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jPanel22MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel22MouseClicked
+    private void pnlKetuaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pnlKetuaMouseClicked
         // TODO add your handling code here:
         new Dwi().setVisible(true);
         dispose();
-    }//GEN-LAST:event_jPanel22MouseClicked
+    }//GEN-LAST:event_pnlKetuaMouseClicked
 
-    private void jPanel24MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel24MouseClicked
+    private void pnlAnggota1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pnlAnggota1MouseClicked
         // TODO add your handling code here:
         new BetrinDinaa().setVisible(true);
         dispose();
-    }//GEN-LAST:event_jPanel24MouseClicked
+    }//GEN-LAST:event_pnlAnggota1MouseClicked
 
-    private void jPanel26MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel26MouseClicked
+    private void pnlAnggota2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pnlAnggota2MouseClicked
         // TODO add your handling code here:
         new Bagastama().setVisible(true);
         dispose();
-    }//GEN-LAST:event_jPanel26MouseClicked
+    }//GEN-LAST:event_pnlAnggota2MouseClicked
 
-    private void jPanel28MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel28MouseClicked
+    private void pnlAnggota3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pnlAnggota3MouseClicked
         // TODO add your handling code here:
         new Sifaul().setVisible(true);
         dispose();
-    }//GEN-LAST:event_jPanel28MouseClicked
+    }//GEN-LAST:event_pnlAnggota3MouseClicked
 
-    private void jPanel30MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel30MouseClicked
+    private void pnlAnggota4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pnlAnggota4MouseClicked
         // TODO add your handling code here:
         new NataszaAmellyaa().setVisible(true);
         dispose();
-    }//GEN-LAST:event_jPanel30MouseClicked
+    }//GEN-LAST:event_pnlAnggota4MouseClicked
 
-    private void jPanel32MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel32MouseClicked
+    private void pnlAnggota5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_pnlAnggota5MouseClicked
         // TODO add your handling code here:
         new Farid().setVisible(true);
         dispose();
-    }//GEN-LAST:event_jPanel32MouseClicked
+    }//GEN-LAST:event_pnlAnggota5MouseClicked
 
     /**
      * @param args the command line arguments
@@ -657,18 +657,12 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel20;
     private javax.swing.JPanel jPanel21;
-    private javax.swing.JPanel jPanel22;
     private javax.swing.JPanel jPanel23;
-    private javax.swing.JPanel jPanel24;
     private javax.swing.JPanel jPanel25;
-    private javax.swing.JPanel jPanel26;
     private javax.swing.JPanel jPanel27;
-    private javax.swing.JPanel jPanel28;
     private javax.swing.JPanel jPanel29;
     private javax.swing.JPanel jPanel3;
-    private javax.swing.JPanel jPanel30;
     private javax.swing.JPanel jPanel31;
-    private javax.swing.JPanel jPanel32;
     private javax.swing.JPanel jPanel33;
     private javax.swing.JPanel jPanel34;
     private javax.swing.JPanel jPanel35;
@@ -682,5 +676,11 @@ public class Dashboard extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
+    private javax.swing.JPanel pnlAnggota1;
+    private javax.swing.JPanel pnlAnggota2;
+    private javax.swing.JPanel pnlAnggota3;
+    private javax.swing.JPanel pnlAnggota4;
+    private javax.swing.JPanel pnlAnggota5;
+    private javax.swing.JPanel pnlKetua;
     // End of variables declaration//GEN-END:variables
 }
