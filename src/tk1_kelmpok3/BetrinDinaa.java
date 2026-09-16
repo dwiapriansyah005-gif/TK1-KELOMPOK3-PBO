@@ -79,11 +79,9 @@ public class BetrinDinaa extends javax.swing.JFrame {
         setBackground(new java.awt.Color(204, 204, 204));
         getContentPane().setLayout(new java.awt.CardLayout());
 
-        jPanel23.setBackground(new java.awt.Color(204, 204, 204));
         jPanel23.setPreferredSize(new java.awt.Dimension(1680, 983));
         jPanel23.setLayout(new java.awt.BorderLayout());
 
-        jPanel26.setBackground(new java.awt.Color(213, 213, 213));
         jPanel26.setPreferredSize(new java.awt.Dimension(1066, 612));
 
         jPanel1.setBackground(new java.awt.Color(124, 168, 220));
@@ -423,8 +421,6 @@ public class BetrinDinaa extends javax.swing.JFrame {
 
         jPanel2.add(jPanel4, java.awt.BorderLayout.CENTER);
 
-        jPanel27.setBackground(new java.awt.Color(213, 213, 213));
-
         jButton2.setBackground(new java.awt.Color(0, 132, 255));
         jButton2.setFont(new java.awt.Font("Trebuchet MS", 3, 25)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
@@ -507,6 +503,8 @@ public class BetrinDinaa extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+        dispose();
+        new Dashboard().setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**

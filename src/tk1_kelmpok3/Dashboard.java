@@ -310,6 +310,11 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel22.setBackground(new java.awt.Color(255, 255, 255));
         jPanel22.setMinimumSize(new java.awt.Dimension(536, 156));
         jPanel22.setPreferredSize(new java.awt.Dimension(536, 156));
+        jPanel22.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jPanel22MouseClicked(evt);
+            }
+        });
         jPanel22.setLayout(new java.awt.BorderLayout());
 
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/PANAH.png"))); // NOI18N
@@ -344,6 +349,11 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel24.setBackground(new java.awt.Color(255, 255, 255));
         jPanel24.setMinimumSize(new java.awt.Dimension(536, 156));
         jPanel24.setPreferredSize(new java.awt.Dimension(536, 156));
+        jPanel24.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jPanel24MouseClicked(evt);
+            }
+        });
         jPanel24.setLayout(new java.awt.BorderLayout());
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/PANAH.png"))); // NOI18N
@@ -379,6 +389,11 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel26.setBackground(new java.awt.Color(255, 255, 255));
         jPanel26.setMinimumSize(new java.awt.Dimension(536, 156));
         jPanel26.setPreferredSize(new java.awt.Dimension(536, 156));
+        jPanel26.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jPanel26MouseClicked(evt);
+            }
+        });
         jPanel26.setLayout(new java.awt.BorderLayout());
 
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/PANAH.png"))); // NOI18N
@@ -414,6 +429,11 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel28.setBackground(new java.awt.Color(255, 255, 255));
         jPanel28.setMinimumSize(new java.awt.Dimension(536, 156));
         jPanel28.setPreferredSize(new java.awt.Dimension(536, 156));
+        jPanel28.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jPanel28MouseClicked(evt);
+            }
+        });
         jPanel28.setLayout(new java.awt.BorderLayout());
 
         jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/PANAH.png"))); // NOI18N
@@ -449,6 +469,11 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel30.setBackground(new java.awt.Color(255, 255, 255));
         jPanel30.setMinimumSize(new java.awt.Dimension(536, 156));
         jPanel30.setPreferredSize(new java.awt.Dimension(536, 156));
+        jPanel30.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jPanel30MouseClicked(evt);
+            }
+        });
         jPanel30.setLayout(new java.awt.BorderLayout());
 
         jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/PANAH.png"))); // NOI18N
@@ -484,6 +509,11 @@ public class Dashboard extends javax.swing.JFrame {
         jPanel32.setBackground(new java.awt.Color(255, 255, 255));
         jPanel32.setMinimumSize(new java.awt.Dimension(536, 156));
         jPanel32.setPreferredSize(new java.awt.Dimension(536, 156));
+        jPanel32.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                jPanel32MouseClicked(evt);
+            }
+        });
         jPanel32.setLayout(new java.awt.BorderLayout());
 
         jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tk1_kelmpok3/icon/PANAH.png"))); // NOI18N
@@ -530,6 +560,42 @@ public class Dashboard extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jPanel22MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel22MouseClicked
+        // TODO add your handling code here:
+        new Dwi().setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jPanel22MouseClicked
+
+    private void jPanel24MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel24MouseClicked
+        // TODO add your handling code here:
+        new BetrinDinaa().setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jPanel24MouseClicked
+
+    private void jPanel26MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel26MouseClicked
+        // TODO add your handling code here:
+        new Bagastama().setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jPanel26MouseClicked
+
+    private void jPanel28MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel28MouseClicked
+        // TODO add your handling code here:
+        new Sifaul().setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jPanel28MouseClicked
+
+    private void jPanel30MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel30MouseClicked
+        // TODO add your handling code here:
+        new NataszaAmellyaa().setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jPanel30MouseClicked
+
+    private void jPanel32MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel32MouseClicked
+        // TODO add your handling code here:
+        new Farid().setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jPanel32MouseClicked
 
     /**
      * @param args the command line arguments
